@@ -25,19 +25,19 @@ __*Resposta:*__
 ##### Arquiteturas centralizadas e multicamadas (multidivididas)
 
 São arquiteturas tipicas de softwares comuns não distribuidos. São classicamente representadas pelo exemplo de uma aplicação web cliente/servidor. Onde toda interação do cliente pode resultar numa comunicação com o servidor porem nunca havera uma comunicação cliente/cliente.
-![https://pt.wikibooks.org/wiki/Redes_de_computadores/Camada_de_aplicação](cliente-servidor.png)
+![https://pt.wikibooks.org/wiki/Redes_de_computadores/Camada_de_aplicação](Cliente-servidor.jpeg)
 
 ##### Arquiteturas decentralizadas
 
 São arquiteturas que não contem um hub ou um servidor mestre controlando toda a aplicação. É o caso d redes peer-to-peer por exemplo. As conexões costumam ser diretamente entre os clientes.
 
-![https://pt.wikibooks.org/wiki/Redes_de_computadores/Camada_de_aplicação](p2p.png)
+![https://pt.wikibooks.org/wiki/Redes_de_computadores/Camada_de_aplicação](p2p.jpeg)
 
 ##### Arquiteturas Hibridas
 
 Arquiteturas hibridas são arquiteturas em que a aplicação tanto usa de um servidor centralizado quanto de conexões direto com outros peers para a realização de suas tarefas. Esse caso ocorre tanto em serviços de Torrent quanto em serviços de video como o Skype.
 
-![https://pt.wikibooks.org/wiki/Redes_de_computadores/Camada_de_aplicação](p2p.png)
+![https://pt.wikibooks.org/wiki/Redes_de_computadores/Camada_de_aplicação](Híbrido.jpeg)
 
 _referencias:_
 
