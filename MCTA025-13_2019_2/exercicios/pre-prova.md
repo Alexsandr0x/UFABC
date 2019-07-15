@@ -25,13 +25,17 @@ __*Resposta:*__
 ##### Arquiteturas centralizadas e multicamadas (multidivididas)
 
 São arquiteturas tipicas de softwares comuns não distribuidos. São classicamente representadas pelo exemplo de uma aplicação web cliente/servidor. Onde toda interação do cliente pode resultar numa comunicação com o servidor porem nunca havera uma comunicação cliente/cliente.
+
 ![https://pt.wikibooks.org/wiki/Redes_de_computadores/Camada_de_aplicação](Cliente-servidor.jpeg)
+
 
 ##### Arquiteturas decentralizadas
 
 São arquiteturas que não contem um hub ou um servidor mestre controlando toda a aplicação. É o caso d redes peer-to-peer por exemplo. As conexões costumam ser diretamente entre os clientes.
 
+
 ![https://pt.wikibooks.org/wiki/Redes_de_computadores/Camada_de_aplicação](p2p.jpeg)
+
 
 ##### Arquiteturas Hibridas
 
@@ -60,3 +64,15 @@ _referencias:_
 
 
 4. __Realize o desenho dos tipos de sincronização que existem na comunicação cliente/servidor, explicando quando são realizadas as sincronizações e explicando que tipos de comunicação existem (slide 13 aula06-cap4.pdf)__
+
+__*Resposta:*__ 
+
+São citadas duas principais formas de sincronização numa comunicação Cliente/Servidor: _Comunicação Persistente_ e _Comunicação Persistente_.
+
+Na Comunicação Persistente Mensagem é guardada pelo remetente até se seja garantido a entrega para o destinatario. Enquanto que na Comunicação Transiente o remetente descarta a mensagem caso ela não possa ser encaminhada ao destinaratio.
+
+
+
+_referencias:_
+
+[Desenvolvimento de sistemas de informação distribuídos - Prof. Daniel Cordeiro](https://edisciplinas.usp.br/pluginfile.php/3314811/mod_resource/content/1/aula-7.pdf)
