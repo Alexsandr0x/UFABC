@@ -1,0 +1,10 @@
+{
+	"peers": [
+		{"name": "peer_a", "host": "localhost", "port": "550"},
+		{"name": "peer_b", "host": "localhost", "port": "551"},
+		{"name": "peer_c", "host": "localhost", "port": "552"},
+		{"name": "peer_d", "host": "localhost", "port": "553"},
+		{"name": "peer_e", "host": "localhost", "port": "554"}
+	],
+	"client": {"host": "localhost", "port": "660"}
+}
